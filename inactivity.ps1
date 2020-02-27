@@ -17,7 +17,7 @@ elseif (check = $false)
 
 
 $sh = New-Object -ComObject "Wscript.Shell"
-$intButton = $sh.Popup("Inactivity detected! No user input for 5 minutes! Press OK to avoid logout",15,"SnagR Monitoring Agent",0+64)
+$intButton = $sh.Popup("Inactivity detected! No user input for 5 minutes! Press OK to avoid logout",15," Monitoring Agent",0+64)
 write-host $intButton
   switch  ($intButton) {
 
